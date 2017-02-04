@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "rm -rf build && webpack --config config/webpack.config.prod.js -p --progress  --optimize-minimize"
+    "start": "webpack-dev-server --config config/webpack.config.dev.js",
+    "build": "rm -rf build && webpack --config config/webpack.config.js -p --progress  --optimize-minimize"
   },
   "repository": {
     "type": "git",
